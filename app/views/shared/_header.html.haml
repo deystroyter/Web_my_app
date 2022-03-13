@@ -1,0 +1,9 @@
+%header
+  %nav.main-menu
+    %ul.main-menu__list
+      %li= link_to t('.home'), root_path
+      %li.locale
+        = link_to "ru", locale: :ru
+        = link_to "en", locale: :en
+        %b
+          = I18n.locale
