@@ -9,7 +9,7 @@ gem 'rails', '~> 7.0.2', '>= 7.0.2.3'
 gem 'sprockets-rails'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+#gem 'sqlite3', '~> 1.4'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
@@ -69,6 +69,10 @@ group :development do
   gem 'rails-asset-jqueryui'
   gem 'turbolinks'
   gem 'web-console'
+  gem 'pg'
+  gem 'activerecord-reset-pk-sequence'
+  gem 'bcrypt'
+  gem 'active_model_serializers'
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
   # Pagination
