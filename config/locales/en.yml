@@ -1,0 +1,40 @@
+
+en:
+  main:
+    back: "Back to main"
+    index:
+      welcome: "Welcome to GameExpert."
+      start_work: "Proceed to work!"
+  users:
+    form:
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Confirm Password"
+      sign_up: "Sign up"
+  sessions:
+    form:
+      sign_in: "Sign In"
+  work:
+    button_theme_select:
+      select_theme: "Select Theme"
+    index:
+      select_theme: "Select Theme to Leave Your Answer"
+      first_image: "Rise and shine, Mr.Freeman!"
+      expert_value: "Expert value:"
+      avg_value: "Average value:"
+      your_value: "Your value:"
+      leave_answer: "Leave your answer"
+      submit: "Submit"
+  shared:
+    header:
+      home: "Home"
+      work: "Work"
+      sign_in: "Sign in"
+      sign_out: "Sign out"
+      settings: "Settings"
+    footer:
+      help: "Help"
+      contacts: "Contacts"
+      about: "About"
+      ruby_site: "Ruby on Rails Website"
+

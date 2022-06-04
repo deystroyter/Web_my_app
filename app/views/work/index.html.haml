@@ -1,0 +1,50 @@
+%h1= t('main.index.start_work')
+.image
+  .row
+    .col-md-3
+      .left_controls
+        .select_theme
+          = render 'work/button_theme_select', locale: @current_locale
+      %br
+    .col-md-9
+      .image_display
+        .row.image.justify-content-center
+          .col-md-12.justify-content-center
+            %h2.up-theme.text-center{:title => "theme_name"}
+              #{@selected_theme}
+          .col-md-12.text-center
+            %h2.up{:title => "Image file name"}
+              #{@selected_image_name}
+          .col-md-1.text-center
+            .img-left-side
+              %h3{:title => "Go to previous image"}
+                %i.fa.fa-chevron-circle-left.strong
+          .col-md-10.justify-content-center
+            .img-center{:title => "Rise and shine, Mr.Freeman"}
+              %img{:alt => "Rise and shine, Mr.Freeman", :src =>
+                '../assets/default_img.png',
+                :title => "Rise and shine, Mr.Freeman" }
+          .col-md-1.justify-content-center
+            .img-right-side
+              %h3{:title => "Go to next image"}
+                %i.fa.fa-chevron-circle-right
+          .col-md-12
+            .image_user_value.justify-content-center{:title => "Expert value"}
+              = t('.expert_value')
+              %span#values_qty
+                #{@values_qty}
+            .image_avg_value
+              = t('.avg_value')
+              %span#avg_value
+            .user-value-exists
+              = t('.your_value')
+              %span#user_value
+            .set-user-value
+              %h3= t('.leave_answer')
+              = form_tag("/savg_value", remote: true,  :format => :js) do
+                %input{:type => "number", :name => "value", :min => "1", :max => "10"}
+                %input.main-button{:type => "button",
+                  :id => "savg_value_button",
+                  :value => t('.submit')}
+= link_to t('main.back'), main_index_path
+
