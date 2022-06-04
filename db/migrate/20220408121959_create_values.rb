@@ -1,4 +1,4 @@
-class CreateValues < ActiveRecord::Migration[7.0]
+class CreateValues < ActiveRecord::Migration[6.1]
   def change
     create_table :values do |t|
       t.integer :user_id
