@@ -1,0 +1,51 @@
+/* line 5, app/assets/stylesheets/work.scss */
+.set-user-value {
+  display: none;
+}
+
+/* line 7, app/assets/stylesheets/work.scss */
+.set-user-value input {
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+/* line 13, app/assets/stylesheets/work.scss */
+.user-value-exists, .image_avg_value {
+  display: none;
+}
+
+/* line 17, app/assets/stylesheets/work.scss */
+.img-right-side, .img-left-side {
+  display: none;
+}
+
+/* line 20, app/assets/stylesheets/work.scss */
+.img-center {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 26, app/assets/stylesheets/work.scss */
+.choose-button {
+  width: 70%;
+  background-color: #6546e3;
+  color: whitesmoke;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+/* line 35, app/assets/stylesheets/work.scss */
+.choose-button:visited {
+  background-color: #6546e3;
+  color: whitesmoke;
+}
+
+/* line 39, app/assets/stylesheets/work.scss */
+.choose-button:hover {
+  background-color: #6546e3;
+  color: whitesmoke;
+}

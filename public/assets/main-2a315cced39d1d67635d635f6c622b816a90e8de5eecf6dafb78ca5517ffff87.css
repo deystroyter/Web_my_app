@@ -1,0 +1,152 @@
+/* line 6, app/assets/stylesheets/main.scss */
+h1 {
+  color: #544399;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* line 12, app/assets/stylesheets/main.scss */
+li {
+  font-size: 20px;
+}
+
+/* line 16, app/assets/stylesheets/main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 24, app/assets/stylesheets/main.scss */
+body header {
+  width: 100vw;
+  height: 50px;
+  background: #1280cc;
+  background: linear-gradient(189deg, #1280cc 0%, #6546e3 45%, #cb00ff 100%);
+}
+
+/* line 29, app/assets/stylesheets/main.scss */
+body header a {
+  color: whitesmoke;
+}
+
+/* line 31, app/assets/stylesheets/main.scss */
+body header a:hover, body header a:visited {
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+/* line 37, app/assets/stylesheets/main.scss */
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 40, app/assets/stylesheets/main.scss */
+body a:hover, body a:visited {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* line 45, app/assets/stylesheets/main.scss */
+body .image {
+  width: 100%;
+}
+
+/* line 48, app/assets/stylesheets/main.scss */
+body footer {
+  width: 100%;
+  height: 50px;
+}
+
+/* line 51, app/assets/stylesheets/main.scss */
+body footer a {
+  font-size: 17px;
+}
+
+/* line 57, app/assets/stylesheets/main.scss */
+.main-menu {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 60, app/assets/stylesheets/main.scss */
+.main-menu__list {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 15px;
+}
+
+/* line 69, app/assets/stylesheets/main.scss */
+.main-menu a {
+  color: whitesmoke;
+}
+
+/* line 72, app/assets/stylesheets/main.scss */
+.main-menu .logged {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 76, app/assets/stylesheets/main.scss */
+.main-menu .logged .gravatar {
+  height: 50px;
+}
+
+/* line 79, app/assets/stylesheets/main.scss */
+.main-menu .logged a {
+  margin-right: 10px;
+}
+
+/* line 85, app/assets/stylesheets/main.scss */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+/* line 92, app/assets/stylesheets/main.scss */
+.main > .main-button {
+  width: 20%;
+}
+
+/* line 97, app/assets/stylesheets/main.scss */
+.main-button {
+  width: 100%;
+  background-color: #cb00ff;
+  color: whitesmoke;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+/* line 106, app/assets/stylesheets/main.scss */
+.main-button:visited {
+  background-color: #cb00ff;
+  color: whitesmoke;
+}
+
+/* line 110, app/assets/stylesheets/main.scss */
+.main-button:hover {
+  background-color: #cb00ff;
+  color: whitesmoke;
+}
+
+/* line 115, app/assets/stylesheets/main.scss */
+.img, svg {
+  justify-content: center;
+}
